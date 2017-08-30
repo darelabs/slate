@@ -197,7 +197,7 @@ merchant_key | Y | Specify your merchant_key
 invoice_id | Y | Provide a unique invoice ID for each request.
 total | Y | Indicate the amount being requested in GHS
 pymt_instrument | Y | Specify the mobile money number for which payment is being requested
-extra_wallet_issuer_hint | Y | Must either be mtn, airtel or tigo depending on customer's wallet
+extra_wallet_issuer_hint | Y | Must either be mtn, airtel or tigo depending on customer's wallet. If you have been enabled for VISA/MASTERCARD requests, then you can also pass visa_mastercard. Kindly note for VISA/MASTERCARD requests pymt_instrument must be 00000000
 extra_* | N | You can provide many other parameters which iPay will store for you. These are returned when you check the status of an invoice. This feature is useful for storing extra data that has meaning for your application
 
 
