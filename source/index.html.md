@@ -6,7 +6,7 @@ language_tabs:
   - shell
 
 toc_footers:
-  - <a href='https://manage.ipygh.com/xmange/get-started'>Sign Up for a Developer Key</a>
+  - <a href='https://manage.ipaygh.com/xmanage/get-started'>Sign Up for a Developer Key</a>
   - <a href='https://github.com/tripit/slate'>Documentation Powered by Slate</a>
 
 includes:
